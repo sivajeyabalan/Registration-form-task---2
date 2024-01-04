@@ -1,0 +1,69 @@
+body {
+  font-family : Roboto , Arial;
+  background-color: #f0ecec;
+  font-style: bold ;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  padding: 16px;
+  background-color: white;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f0ecec;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 3px solid white;
+  margin-bottom: 25px ;
+  margin-top: 25px;
+}
+
+.heading {
+  text-align: center;
+}
+
+button{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 20px 0 15px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button :hover {
+    
+  background-color: rgb(80, 208, 95);
+}
+button:active{
+  opacity: 0.5;
+}
+.SIGNIN {
+  padding: 10px;
+  color: rgb(0,0, 0);
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+a {
+  color: rgb(30, 144, 255);
+}
